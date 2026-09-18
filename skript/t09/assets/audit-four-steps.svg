@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 195" role="img" aria-labelledby="audit-four-steps-title">
+  <title id="audit-four-steps-title">The audit system in four steps: assumptions, states, edges, provenance — with edges marked as the place where most violations concentrate</title>
+
+  <!-- Step 1: assumptions -->
+  <rect x="22" y="30" width="216" height="120" rx="10" fill="#e2eefc" stroke="#3391ff" stroke-width="1.5"/>
+  <circle cx="56" cy="62" r="15" fill="#031121"/>
+  <text x="56" y="67" text-anchor="middle" font-family="Inter, sans-serif" font-size="15" font-weight="700" fill="#ffffff">1</text>
+  <text x="80" y="68" font-family="Inter, sans-serif" font-size="20" font-weight="700" fill="#031121">assumptions</text>
+  <text x="44" y="98" font-family="Inter, sans-serif" font-size="13.5" fill="#5a6472">what it silently presumes:</text>
+  <text x="44" y="118" font-family="Inter, sans-serif" font-size="13.5" fill="#5a6472">user, data, institution</text>
+
+  <line x1="241" y1="90" x2="254" y2="90" stroke="#5a6472" stroke-width="2"/>
+  <polygon points="254,84 262,90 254,96" fill="#5a6472"/>
+
+  <!-- Step 2: states -->
+  <rect x="262" y="30" width="216" height="120" rx="10" fill="#e2eefc" stroke="#3391ff" stroke-width="1.5"/>
+  <circle cx="296" cy="62" r="15" fill="#031121"/>
+  <text x="296" y="67" text-anchor="middle" font-family="Inter, sans-serif" font-size="15" font-weight="700" fill="#ffffff">2</text>
+  <text x="320" y="68" font-family="Inter, sans-serif" font-size="20" font-weight="700" fill="#031121">states</text>
+  <text x="284" y="98" font-family="Inter, sans-serif" font-size="13.5" fill="#5a6472">what happens between</text>
+  <text x="284" y="118" font-family="Inter, sans-serif" font-size="13.5" fill="#5a6472">and behind the screens</text>
+
+  <line x1="481" y1="90" x2="494" y2="90" stroke="#5a6472" stroke-width="2"/>
+  <polygon points="494,84 502,90 494,96" fill="#5a6472"/>
+
+  <!-- Step 3: edges (accented) -->
+  <rect x="502" y="30" width="216" height="120" rx="10" fill="#e2eefc" stroke="#3391ff" stroke-width="1.5"/>
+  <circle cx="536" cy="62" r="15" fill="#031121"/>
+  <text x="536" y="67" text-anchor="middle" font-family="Inter, sans-serif" font-size="15" font-weight="700" fill="#ffffff">3</text>
+  <text x="560" y="68" font-family="Inter, sans-serif" font-size="20" font-weight="700" fill="#031121">edges</text>
+  <text x="524" y="98" font-family="Inter, sans-serif" font-size="13.5" fill="#5a6472">error paths &#183; keyboard &#183;</text>
+  <text x="524" y="118" font-family="Inter, sans-serif" font-size="13.5" fill="#5a6472">empty states</text>
+  <rect x="510" y="140" width="200" height="6" rx="3" fill="#fcd430"/>
+  <text x="610" y="175" text-anchor="middle" font-family="Inter, sans-serif" font-size="13" font-weight="600" fill="#031121">keyboard: 80 % violated</text>
+
+  <line x1="721" y1="90" x2="734" y2="90" stroke="#5a6472" stroke-width="2"/>
+  <polygon points="734,84 742,90 734,96" fill="#5a6472"/>
+
+  <!-- Step 4: provenance -->
+  <rect x="742" y="30" width="216" height="120" rx="10" fill="#e2eefc" stroke="#3391ff" stroke-width="1.5"/>
+  <circle cx="776" cy="62" r="15" fill="#031121"/>
+  <text x="776" y="67" text-anchor="middle" font-family="Inter, sans-serif" font-size="15" font-weight="700" fill="#ffffff">4</text>
+  <text x="800" y="68" font-family="Inter, sans-serif" font-size="20" font-weight="700" fill="#031121">provenance</text>
+  <text x="764" y="98" font-family="Inter, sans-serif" font-size="13.5" fill="#5a6472">where does the model</text>
+  <text x="764" y="118" font-family="Inter, sans-serif" font-size="13.5" fill="#5a6472">know this pattern from?</text>
+</svg>

@@ -1,0 +1,347 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.733 --> 00:00:01.966
+Poupyrev:
+My name is Ivan Poupyrev,
+
+00:00:01.966 --> 00:00:04.300
+and I work for Advanced
+Technology and Projects group
+
+00:00:04.300 --> 00:00:05.800
+at Google.
+
+00:00:05.800 --> 00:00:07.966
+The hand is the ultimate
+input device.
+
+00:00:07.966 --> 00:00:10.800
+It's extremely precise,
+it's extremely fast,
+
+00:00:10.800 --> 00:00:12.533
+and it's very natural
+for us to use it.
+
+00:00:12.533 --> 00:00:15.333
+Capturing the possibilities
+of the human hand
+
+00:00:15.333 --> 00:00:17.633
+was one of my passions.
+
+00:00:17.633 --> 00:00:19.766
+How could we take
+this incredible capability,
+
+00:00:19.766 --> 00:00:24.666
+the finesse of human actions
+and finesse of using our hand,
+
+00:00:24.666 --> 00:00:29.066
+but apply it
+to the virtual world?
+
+00:00:29.066 --> 00:00:32.900
+We use radio frequency spectrum,
+which is radars,
+
+00:00:32.900 --> 00:00:35.066
+to track human hand.
+
+00:00:35.066 --> 00:00:37.227
+Radars have been used
+for many different things--
+
+00:00:37.233 --> 00:00:40.666
+to track cars, big objects,
+satellites and planes.
+
+00:00:40.666 --> 00:00:44.333
+We're using them
+to track micro motions,
+
+00:00:44.333 --> 00:00:45.733
+twitches, of the human hand
+
+00:00:45.733 --> 00:00:48.400
+and then use that
+to interact with wearables
+
+00:00:48.400 --> 00:00:49.700
+and Internet of Things
+
+00:00:49.700 --> 00:00:53.900
+and other computing devices.
+
+00:00:53.900 --> 00:00:57.033
+Lien: Our team is focused
+on taking radar hardware
+
+00:00:57.033 --> 00:01:00.133
+and turning it
+into a gesture sensor.
+
+00:01:00.133 --> 00:01:01.766
+Radar is a technology
+
+00:01:01.766 --> 00:01:04.966
+which transmits a radio wave
+towards a target,
+
+00:01:04.966 --> 00:01:06.733
+and then the receiver
+of the radar
+
+00:01:06.733 --> 00:01:10.566
+intercepts the reflected energy
+from that target.
+
+00:01:10.566 --> 00:01:12.766
+The reason why we're able
+to interpret so much
+
+00:01:12.766 --> 00:01:14.700
+from this one radar signal
+
+00:01:14.700 --> 00:01:17.133
+is because of the full
+gesture recognition pipeline
+
+00:01:17.133 --> 00:01:18.600
+that we've built.
+
+00:01:18.600 --> 00:01:20.433
+The various stages
+of this pipeline
+
+00:01:20.433 --> 00:01:24.166
+are designed to extract
+specific gesture information
+
+00:01:24.166 --> 00:01:26.500
+from this one radar signal
+that we receive
+
+00:01:26.500 --> 00:01:29.500
+at a high frame rate.
+
+00:01:29.500 --> 00:01:32.200
+Amihood: From these strange,
+foreign range Doppler signals,
+
+00:01:32.200 --> 00:01:37.533
+we are actually interpreting
+human intent.
+
+00:01:37.533 --> 00:01:39.800
+Karagozler: Radar
+has some unique properties
+
+00:01:39.800 --> 00:01:42.500
+when compared to cameras,
+for example.
+
+00:01:42.500 --> 00:01:45.733
+It has very high
+positional accuracy,
+
+00:01:45.733 --> 00:01:50.833
+which means that you can sense
+the tiniest motions.
+
+00:01:50.833 --> 00:01:52.900
+Schwesig: We arrived
+at this idea of virtual tools
+
+00:01:52.900 --> 00:01:54.400
+because we recognized
+that there are
+
+00:01:54.400 --> 00:01:57.800
+certain archetypes of controls,
+like a volume knob
+
+00:01:57.800 --> 00:02:00.633
+or a physical slider,
+a volume slider,
+
+00:02:01.833 --> 00:02:03.100
+Imagine a button
+
+00:02:03.100 --> 00:02:05.733
+between your thumb
+and your index finger,
+
+00:02:05.733 --> 00:02:07.566
+and the button's not there,
+
+00:02:07.566 --> 00:02:10.166
+but pressing this
+is a very clear action.
+
+00:02:10.166 --> 00:02:12.366
+And there's an actual
+physical haptic feedback
+
+00:02:12.366 --> 00:02:14.500
+that occurs as you perform
+that action.
+
+00:02:14.500 --> 00:02:17.733
+The hand can both embody
+a virtual tool,
+
+00:02:17.733 --> 00:02:19.466
+and it can also be, you know,
+
+00:02:19.466 --> 00:02:21.666
+acting on that virtual tool
+at the same time.
+
+00:02:21.666 --> 00:02:23.700
+So if we can recognize
+that action,
+
+00:02:23.700 --> 00:02:28.833
+we have an interesting direction
+for interacting with technology.
+
+00:02:28.833 --> 00:02:31.033
+Poupyrev: So when we started
+this project,
+
+00:02:31.033 --> 00:02:35.466
+you know, me and my team,
+we looked at the project idea,
+
+00:02:35.466 --> 00:02:37.433
+and we thought,
+"Are we gonna make it or not?
+
+00:02:37.433 --> 00:02:38.900
+Eh, we don't know."
+
+00:02:38.900 --> 00:02:40.266
+But we have to do it.
+
+00:02:40.266 --> 00:02:43.200
+Because unless you do it,
+you don't know.
+
+00:02:43.200 --> 00:02:46.833
+Raja: What I think I'm most
+proud of about our project is,
+
+00:02:46.833 --> 00:02:49.100
+we have pushed
+the processing power
+
+00:02:49.100 --> 00:02:51.500
+of the electronics itself
+further out
+
+00:02:51.500 --> 00:02:55.866
+to do the sensing part for us.
+
+00:02:55.866 --> 00:02:57.133
+Poupyrev:
+The radar has a property
+
+00:02:57.133 --> 00:02:58.833
+which no other technology has.
+
+00:02:58.833 --> 00:03:00.466
+It can work through materials.
+
+00:03:00.466 --> 00:03:02.066
+You can embed it into objects.
+
+00:03:02.066 --> 00:03:04.033
+It allows us to track
+really precise motions.
+
+00:03:04.033 --> 00:03:05.833
+And what is most exciting
+about it
+
+00:03:05.833 --> 00:03:08.300
+is that you can shrink
+the entire radar
+
+00:03:08.300 --> 00:03:10.000
+and put it in a tiny chip.
+
+00:03:10.000 --> 00:03:12.800
+That's what makes this approach
+so promising.
+
+00:03:12.800 --> 00:03:14.333
+It's extremely reliable.
+
+00:03:14.333 --> 00:03:15.600
+There's nothing to break.
+
+00:03:15.600 --> 00:03:16.733
+There's no moving parts.
+
+00:03:16.733 --> 00:03:17.800
+There's no lenses.
+
+00:03:17.800 --> 00:03:19.566
+There's nothing,
+just a piece of sand
+
+00:03:19.566 --> 00:03:22.266
+on your board.
+
+00:03:22.620 --> 00:03:25.560
+Schwesig: Now we are at a point
+where we have the hardware
+
+00:03:25.720 --> 00:03:27.853
+where we can sense
+these interactions,
+
+00:03:28.180 --> 00:03:30.047
+and we can put them to work.
+
+00:03:30.047 --> 00:03:31.907
+We can explore
+how well they work
+
+00:03:31.920 --> 00:03:34.686
+and how well they might work
+in products.
+
+00:03:38.920 --> 00:03:40.200
+Poupyrev:
+It blows your mind, usually,
+
+00:03:40.400 --> 00:03:41.960
+when you see things people do.
+
+00:03:42.140 --> 00:03:44.073
+And that I'm really
+looking forward to.
+
+00:03:44.220 --> 00:03:44.940
+I'm really looking forward
+
+00:03:45.040 --> 00:03:46.620
+to releasing this
+to the development community,
+
+00:03:46.740 --> 00:03:48.174
+and I really want them
+to be excited
+
+00:03:48.260 --> 00:03:49.200
+and motivated
+
+00:03:49.320 --> 00:03:51.420
+to do something cool with it,
+right?
+

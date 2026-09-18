@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 620" role="img" aria-labelledby="t d">
+  <title id="t">The four bins: a 2-by-2 sorting grid for tipping moments — recognition error, context loss, hallucination, expectation break</title>
+  <desc id="d">Four equal boxes in a two-by-two grid, one per bin: recognition error, context loss, hallucination, expectation break. A footer line states that every tipping moment from the wall goes into one of these four.</desc>
+  <style>
+    text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill: #031121; }
+    .bin { font-size: 34px; font-weight: 700; }
+    .foot { font-size: 20px; fill: #5a6472; }
+    .box { fill: #e5effb; stroke: #c7cdd4; stroke-width: 2; }
+    .mark { fill: #fcd430; }
+  </style>
+  <rect width="1200" height="620" fill="#ffffff"/>
+
+  <rect class="box" x="90"  y="60"  width="490" height="230"/>
+  <rect class="mark" x="130" y="158" width="18" height="18"/>
+  <text class="bin" x="168" y="177">recognition error</text>
+
+  <rect class="box" x="620" y="60"  width="490" height="230"/>
+  <rect class="mark" x="660" y="158" width="18" height="18"/>
+  <text class="bin" x="698" y="177">context loss</text>
+
+  <rect class="box" x="90"  y="330" width="490" height="230"/>
+  <rect class="mark" x="130" y="428" width="18" height="18"/>
+  <text class="bin" x="168" y="447">hallucination</text>
+
+  <rect class="box" x="620" y="330" width="490" height="230"/>
+  <rect class="mark" x="660" y="428" width="18" height="18"/>
+  <text class="bin" x="698" y="447">expectation break</text>
+
+  <text class="foot" x="90" y="600">Every tipping moment from the wall goes into one of these four.</text>
+</svg>

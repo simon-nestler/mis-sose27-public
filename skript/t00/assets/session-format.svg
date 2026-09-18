@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" role="img" aria-labelledby="t d">
+  <title id="t">One session, 135 minutes in a single block: opening on the wall, input, activation, a ten-minute break, a second input and activation, securing, bridge</title>
+  <desc id="d">A horizontal timeline bar from minute 0 to minute 135, divided into eight segments: opening and the wall, input 1, activation 1, a break of ten minutes highlighted in yellow, input 2 as the case, activation 2, securing, and the bridge task. Brackets above group the first half as collecting and naming (Bloom 3 to 4) and the second half as deciding and defending (Bloom 4 to 6). Annotations state that lecturer monologue never exceeds fifteen minutes, that the break position follows each session script, and that a hard format change follows the break.</desc>
+  <style>
+    text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill: #031121; }
+    .seg { font-size: 15px; font-weight: 700; }
+    .min { font-size: 13px; fill: #5a6472; }
+    .an  { font-size: 14.5px; fill: #5a6472; }
+    .anb { font-size: 14.5px; font-weight: 700; fill: #1a2f6e; }
+    .half{ font-size: 14px; font-weight: 700; fill: #1a2f6e; }
+    .tick{ font-size: 13px; fill: #5a6472; }
+    .box { fill: #f2f6fa; stroke: #c7cdd4; stroke-width: 1.5; }
+    .boxd{ fill: #dfe9f3; stroke: #c7cdd4; stroke-width: 1.5; }
+  </style>
+  <rect width="1200" height="600" fill="#ffffff"/>
+
+  <!-- half brackets -->
+  <path d="M 60 150 v -14 h 416 v 14" fill="none" stroke="#1a2f6e" stroke-width="2"/>
+  <text class="half" x="268" y="122" text-anchor="middle">first half — collect, sort, name (Bloom 3–4)</text>
+  <path d="M 556 150 v -14 h 584 v 14" fill="none" stroke="#1a2f6e" stroke-width="2"/>
+  <text class="half" x="848" y="122" text-anchor="middle">second half — decide, defend, secure (Bloom 4–6)</text>
+
+  <!-- timeline bar, 8 px per minute -->
+  <rect class="box"  x="60"   y="170" width="96"  height="120"/>
+  <rect class="boxd" x="156"  y="170" width="144" height="120"/>
+  <rect class="box"  x="300"  y="170" width="176" height="120"/>
+  <rect x="476" y="170" width="80" height="120" fill="#fcd430" stroke="#c7cdd4" stroke-width="1.5"/>
+  <rect class="boxd" x="556"  y="170" width="160" height="120"/>
+  <rect class="box"  x="716"  y="170" width="240" height="120"/>
+  <rect class="boxd" x="956"  y="170" width="104" height="120"/>
+  <rect class="box"  x="1060" y="170" width="80"  height="120"/>
+
+  <!-- segment labels -->
+  <text class="seg" x="108"  y="222" text-anchor="middle">Opening</text>
+  <text class="min" x="108"  y="244" text-anchor="middle">the wall</text>
+  <text class="seg" x="228"  y="222" text-anchor="middle">Input 1</text>
+  <text class="seg" x="388"  y="222" text-anchor="middle">Activation 1</text>
+  <text class="min" x="388"  y="244" text-anchor="middle">groups</text>
+  <text class="seg" x="516"  y="222" text-anchor="middle">Break</text>
+  <text class="min" x="516"  y="244" text-anchor="middle">10 min</text>
+  <text class="seg" x="636"  y="222" text-anchor="middle">Input 2</text>
+  <text class="min" x="636"  y="244" text-anchor="middle">the case</text>
+  <text class="seg" x="836"  y="222" text-anchor="middle">Activation 2</text>
+  <text class="min" x="836"  y="244" text-anchor="middle">under load</text>
+  <text class="seg" x="1008" y="222" text-anchor="middle">Securing</text>
+  <text class="seg" x="1100" y="222" text-anchor="middle">Bridge</text>
+
+  <!-- minute ticks -->
+  <text class="tick" x="60"   y="320">0 min</text>
+  <text class="tick" x="1140" y="320" text-anchor="end">135 min</text>
+
+  <!-- annotations -->
+  <line x1="516" y1="290" x2="516" y2="366" stroke="#c7cdd4" stroke-width="1.5"/>
+  <text class="anb" x="76" y="392">One break, ten minutes.</text>
+  <text class="an"  x="76" y="416">Its position follows each session's script — the split shown here is illustrative.</text>
+  <text class="anb" x="76" y="456">Hard format change after the break.</text>
+  <text class="an"  x="76" y="480">The second half belongs to cases and your hands, not to more input.</text>
+  <text class="anb" x="76" y="520">Lecturer monologue never exceeds 15 minutes.</text>
+  <text class="an"  x="76" y="544">135 minutes buy longer activations — not more slides.</text>
+</svg>

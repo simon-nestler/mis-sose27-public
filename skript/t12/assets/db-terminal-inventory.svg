@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 620" role="img" aria-labelledby="t d">
+  <title id="t">Fallback dossier: modality inventory of a DB ticket machine — schematic with touch display, loudspeaker, card reader, coin and bill slots, ticket and change tray</title>
+  <desc id="d">A schematic front view of a ticket machine on the left with five labeled elements on the right: touch display as the single channel for nearly every core task, loudspeaker as public audio without a private channel, card reader as payment channel, coin and bill slots for cash input, and the ticket and change tray as output near the bottom. A footer notes the schematic is a stand-in and the dossier is complete only with the dated photo and one documented barrier.</desc>
+  <style>
+    text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill: #031121; }
+    .term { font-size: 28px; font-weight: 700; }
+    .gloss { font-size: 20px; fill: #5a6472; }
+    .foot { font-size: 20px; fill: #5a6472; }
+    .mark { fill: #fcd430; }
+    .hw { fill: #ffffff; stroke: #5a6472; stroke-width: 2; }
+    .lead { stroke: #5a6472; stroke-width: 1.5; }
+  </style>
+  <rect width="1200" height="620" fill="#ffffff"/>
+
+  <rect x="150" y="50" width="330" height="520" rx="8" fill="#e5effb" stroke="#5a6472" stroke-width="2.5"/>
+  <rect class="hw" x="190" y="90" width="250" height="170"/>
+  <rect x="190" y="292" width="60" height="6" fill="#c7cdd4"/>
+  <rect x="190" y="304" width="60" height="6" fill="#c7cdd4"/>
+  <rect x="190" y="316" width="60" height="6" fill="#c7cdd4"/>
+  <rect class="hw" x="340" y="290" width="100" height="44"/>
+  <rect x="352" y="308" width="76" height="6" fill="#031121"/>
+  <rect x="190" y="372" width="64" height="12" fill="#031121"/>
+  <rect x="340" y="372" width="100" height="12" fill="#031121"/>
+  <rect class="hw" x="190" y="430" width="250" height="80"/>
+
+  <line class="lead" x1="440" y1="175" x2="592" y2="108"/>
+  <line class="lead" x1="252" y1="306" x2="592" y2="203"/>
+  <line class="lead" x1="442" y1="312" x2="592" y2="298"/>
+  <line class="lead" x1="442" y1="378" x2="592" y2="393"/>
+  <line class="lead" x1="442" y1="470" x2="592" y2="488"/>
+
+  <rect class="mark" x="600" y="96" width="18" height="18"/>
+  <text class="term" x="638" y="113">touch display</text>
+  <text class="gloss" x="638" y="141">one channel for nearly every core task</text>
+
+  <rect class="mark" x="600" y="191" width="18" height="18"/>
+  <text class="term" x="638" y="208">loudspeaker</text>
+  <text class="gloss" x="638" y="236">public audio out — no private channel</text>
+
+  <rect class="mark" x="600" y="286" width="18" height="18"/>
+  <text class="term" x="638" y="303">card reader</text>
+  <text class="gloss" x="638" y="331">payment channel at fixed height</text>
+
+  <rect class="mark" x="600" y="381" width="18" height="18"/>
+  <text class="term" x="638" y="398">coin and bill slots</text>
+  <text class="gloss" x="638" y="426">cash input</text>
+
+  <rect class="mark" x="600" y="476" width="18" height="18"/>
+  <text class="term" x="638" y="493">ticket and change tray</text>
+  <text class="gloss" x="638" y="521">output near the bottom of the machine</text>
+
+  <text class="foot" x="150" y="606">Schematic stand-in, not to scale — the dossier is complete only with the dated photo and one documented barrier.</text>
+</svg>

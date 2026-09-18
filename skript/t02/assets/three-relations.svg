@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" role="img" aria-labelledby="t d">
+  <title id="t">Two channels, three relations: redundancy, complementarity, conflict</title>
+  <desc id="d">Three panels, each showing two channels A and B carrying messages to a receiver. Redundancy: both channels carry the same message M. Complementarity: channel A carries "put that", channel B carries "there" - two halves of one message. Conflict: channel A carries message M1, channel B carries a different message M2, and a highlighted collision mark sits where they meet.</desc>
+  <style>
+    text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill: #031121; }
+    .h { font-size: 28px; font-weight: 700; }
+    .q { font-size: 19px; fill: #5a6472; }
+    .lab { font-size: 19px; fill: #5a6472; }
+    .chip { fill: #1a2f6e; }
+    .chiptext { font-size: 20px; font-weight: 700; fill: #ffffff; text-anchor: middle; }
+    .arrow { stroke: #1a2f6e; stroke-width: 3; }
+    .recv { fill: none; stroke: #031121; stroke-width: 2; }
+  </style>
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#1a2f6e"/>
+    </marker>
+  </defs>
+  <rect width="1200" height="560" fill="#ffffff"/>
+
+  <!-- Panel 1: Redundancy -->
+  <g>
+    <text class="h" x="30" y="52">Redundancy</text>
+    <text class="q" x="30" y="84">the same message, twice</text>
+    <text class="lab" x="30" y="192">Channel A</text>
+    <line class="arrow" x1="30" y1="222" x2="278" y2="222" marker-end="url(#arr)"/>
+    <rect class="chip" x="110" y="198" width="84" height="44" rx="8"/>
+    <text class="chiptext" x="152" y="227">M</text>
+    <text class="lab" x="30" y="332">Channel B</text>
+    <line class="arrow" x1="30" y1="362" x2="278" y2="362" marker-end="url(#arr)"/>
+    <rect class="chip" x="110" y="338" width="84" height="44" rx="8"/>
+    <text class="chiptext" x="152" y="367">M</text>
+    <rect class="recv" x="292" y="182" width="76" height="216" rx="10"/>
+    <text class="q" x="330" y="430" text-anchor="middle">one message</text>
+    <text class="q" x="30" y="505">bought as robustness</text>
+  </g>
+
+  <!-- Panel 2: Complementarity -->
+  <g>
+    <text class="h" x="430" y="52">Complementarity</text>
+    <text class="q" x="430" y="84">two halves of one message</text>
+    <text class="lab" x="430" y="192">Channel A</text>
+    <line class="arrow" x1="430" y1="222" x2="678" y2="222" marker-end="url(#arr)"/>
+    <rect class="chip" x="488" y="198" width="132" height="44" rx="8"/>
+    <text class="chiptext" x="554" y="227" style="font-size:18px">&#8220;put that &#8230;&#8221;</text>
+    <text class="lab" x="430" y="332">Channel B</text>
+    <line class="arrow" x1="430" y1="362" x2="678" y2="362" marker-end="url(#arr)"/>
+    <rect class="chip" x="488" y="338" width="132" height="44" rx="8"/>
+    <text class="chiptext" x="554" y="367" style="font-size:18px">&#8220;&#8230; there&#8221;</text>
+    <rect class="recv" x="692" y="182" width="76" height="216" rx="10"/>
+    <text class="q" x="730" y="430" text-anchor="middle">only together</text>
+    <text class="q" x="430" y="505">speech carries the command,</text>
+    <text class="q" x="430" y="531">gesture carries the location</text>
+  </g>
+
+  <!-- Panel 3: Conflict -->
+  <g>
+    <text class="h" x="830" y="52">Conflict</text>
+    <text class="q" x="830" y="84">two messages that fight</text>
+    <text class="lab" x="830" y="192">Channel A</text>
+    <line class="arrow" x1="830" y1="222" x2="1078" y2="222" marker-end="url(#arr)"/>
+    <rect class="chip" x="910" y="198" width="84" height="44" rx="8"/>
+    <text class="chiptext" x="952" y="227">M&#8321;</text>
+    <text class="lab" x="830" y="332">Channel B</text>
+    <line class="arrow" x1="830" y1="362" x2="1078" y2="362" marker-end="url(#arr)"/>
+    <rect class="chip" x="910" y="338" width="84" height="44" rx="8" fill="#031121"/>
+    <text class="chiptext" x="952" y="367">M&#8322;</text>
+    <rect class="recv" x="1092" y="182" width="76" height="216" rx="10"/>
+    <polygon points="1130,252 1140,272 1162,270 1146,286 1156,306 1130,296 1104,306 1114,286 1098,270 1120,272"
+             fill="#fcd430" stroke="#031121" stroke-width="1.5"/>
+    <text x="1130" y="288" text-anchor="middle" style="font-size:24px;font-weight:700">&#8800;</text>
+    <text class="q" x="1130" y="430" text-anchor="middle">they contradict</text>
+    <text class="q" x="830" y="505">the defect you will diagnose</text>
+  </g>
+</svg>

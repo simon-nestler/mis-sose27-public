@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" role="img" aria-labelledby="t d">
+  <title id="t">Fusion and fission: the system merges input streams and splits output across channels</title>
+  <desc id="d">Two panels. Left, fusion: three input streams - speech, gesture, gaze - converge on a decision point and become one interpreted intent. Right, fission: one output message passes a decision point and is distributed to three channels - visual, auditory, haptic. The two decision points are highlighted; a caption states that both are decisions and both can contradict what the human meant.</desc>
+  <style>
+    text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill: #031121; }
+    .h { font-size: 28px; font-weight: 700; }
+    .q { font-size: 19px; fill: #5a6472; }
+    .chipbox { fill: #ffffff; stroke: #031121; stroke-width: 2; }
+    .chiptext { font-size: 20px; text-anchor: middle; }
+    .core { fill: #1a2f6e; }
+    .coretext { font-size: 19px; font-weight: 700; fill: #ffffff; text-anchor: middle; }
+    .arrow { stroke: #1a2f6e; stroke-width: 3; fill: none; }
+    .node { fill: #fcd430; stroke: #031121; stroke-width: 2; }
+  </style>
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#1a2f6e"/>
+    </marker>
+  </defs>
+  <rect width="1200" height="560" fill="#ffffff"/>
+
+  <!-- Fusion -->
+  <g>
+    <text class="h" x="40" y="52">Fusion &#183; the input side</text>
+    <text class="q" x="40" y="84">your input streams are merged</text>
+    <rect class="chipbox" x="40" y="150" width="150" height="44" rx="8"/>
+    <text class="chiptext" x="115" y="179">speech</text>
+    <rect class="chipbox" x="40" y="250" width="150" height="44" rx="8"/>
+    <text class="chiptext" x="115" y="279">gesture</text>
+    <rect class="chipbox" x="40" y="350" width="150" height="44" rx="8"/>
+    <text class="chiptext" x="115" y="379">gaze</text>
+    <line class="arrow" x1="196" y1="172" x2="320" y2="262" marker-end="url(#arr)"/>
+    <line class="arrow" x1="196" y1="272" x2="318" y2="272" marker-end="url(#arr)"/>
+    <line class="arrow" x1="196" y1="372" x2="320" y2="282" marker-end="url(#arr)"/>
+    <circle class="node" cx="352" cy="272" r="26"/>
+    <text class="q" x="352" y="336" text-anchor="middle">the system decides</text>
+    <line class="arrow" x1="382" y1="272" x2="428" y2="272" marker-end="url(#arr)"/>
+    <rect class="core" x="436" y="238" width="150" height="68" rx="8"/>
+    <text class="coretext" x="511" y="266">one interpreted</text>
+    <text class="coretext" x="511" y="290">intent</text>
+  </g>
+
+  <!-- Fission -->
+  <g>
+    <text class="h" x="660" y="52">Fission &#183; the output side</text>
+    <text class="q" x="660" y="84">one output is split across channels</text>
+    <rect class="core" x="660" y="238" width="150" height="68" rx="8"/>
+    <text class="coretext" x="735" y="266">one output</text>
+    <text class="coretext" x="735" y="290">message</text>
+    <line class="arrow" x1="816" y1="272" x2="862" y2="272" marker-end="url(#arr)"/>
+    <circle class="node" cx="894" cy="272" r="26"/>
+    <text class="q" x="894" y="336" text-anchor="middle">the system decides</text>
+    <line class="arrow" x1="922" y1="260" x2="1002" y2="178" marker-end="url(#arr)"/>
+    <line class="arrow" x1="926" y1="272" x2="1004" y2="272" marker-end="url(#arr)"/>
+    <line class="arrow" x1="922" y1="284" x2="1002" y2="366" marker-end="url(#arr)"/>
+    <rect class="chipbox" x="1010" y="150" width="150" height="44" rx="8"/>
+    <text class="chiptext" x="1085" y="179">visual</text>
+    <rect class="chipbox" x="1010" y="250" width="150" height="44" rx="8"/>
+    <text class="chiptext" x="1085" y="279">auditory</text>
+    <rect class="chipbox" x="1010" y="350" width="150" height="44" rx="8"/>
+    <text class="chiptext" x="1085" y="379">haptic</text>
+  </g>
+
+  <text x="40" y="520" style="font-size:21px;font-weight:600">Both are decisions &#8212; and both can contradict what the human meant.</text>
+</svg>

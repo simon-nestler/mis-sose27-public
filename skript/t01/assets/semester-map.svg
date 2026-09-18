@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 851" role="img" aria-labelledby="t d">
+  <title id="t">The MIS semester plan: session 0, 13 sessions of 135 minutes, two anchors, six exercise blocks with a reserve date, prototype milestones, mock exam and written exam</title>
+  <desc id="d">Highlighted (yellow frame, tag TODAY): field 1. Fifteen fields in three rows, read left to right. Session 0 comes first, dashed. Then the sessions: T01 The Invisible Interface; T02 Combining Modalities; T03 Context of Use; T04 Touch Gestures and Recognition Errors; T05 In-Air Gestures, dropped second; T06 Anchor I, the car case; T07 Voice Dialogs, Written and Generated; T08 Chat and the Articulation Barrier; T09 The Audit Workshop, dropped first; T10 Accessibility, Law and Checking; T11 Modality Substitution; T12 Anchor II, the terminal for everyone; T13 Interfaces at Runtime. T06 and T12 are dark anchors. Blue tags below the sessions show the exercise blocks of 180 minutes and the session each docks to: exercise 1 toolchain at T02, exercise 2 gestures at T04 and T05, exercise 3 voice at T07, exercise 4 integration at T08 and T06, exercise 5 accessibility audit at T10 and T11, exercise 6 user test at T12. A dashed tag under T13 marks the seventh date, a catch-up block in reserve. Yellow tags mark the milestones: team and project idea in exercise 1, the working multimodal prototype in exercise 4, the mock exam in T13, the written exam of 90 minutes. A dashed field after T13: an extra week becomes a question hour.</desc>
+  <style>
+    text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill: #031121; }
+    .num { font-size: 24px; font-weight: 700; }
+    .numw { font-size: 24px; font-weight: 700; fill: #ffffff; }
+    .tt { font-size: 17px; }
+    .ttw { font-size: 17px; fill: #dbe6f5; }
+    .utag { font-size: 17px; font-weight: 700; }
+    .mtag { font-size: 18px; font-weight: 700; }
+    .leg { font-size: 20px; fill: #5a6472; }
+    .foot { font-size: 20px; fill: #5a6472; }
+    .drop { font-size: 15px; font-style: italic; fill: #5a6472; }
+    .chip { font-size: 14px; font-weight: 700; letter-spacing: .06em; fill: #031121; }
+  </style>
+  <rect width="1200" height="851" fill="#ffffff"/>
+  <rect x="40" y="95" width="176" height="125" rx="10" fill="none" stroke="#5a6472" stroke-width="2" stroke-dasharray="8 6"/>
+  <text class="tt" x="60" y="152">Session 0:</text>
+  <text class="tt" x="60" y="174">Organization</text>
+  <rect x="228" y="95" width="176" height="125" rx="10" fill="#e2eefc"/>
+  <text class="num" x="248" y="129">T01</text>
+  <text class="tt" x="248" y="159">The Invisible</text>
+  <text class="tt" x="248" y="181">Interface</text>
+  <rect x="223" y="90" width="186" height="135" rx="13" fill="none" stroke="#fcd430" stroke-width="6"/>
+  <rect x="325" y="107" width="71" height="26" rx="13" fill="#fcd430"/>
+  <text class="chip" x="360" y="125" text-anchor="middle">TODAY</text>
+  <rect x="416" y="95" width="176" height="125" rx="10" fill="#e2eefc"/>
+  <text class="num" x="436" y="129">T02</text>
+  <text class="tt" x="436" y="159">Combining</text>
+  <text class="tt" x="436" y="181">Modalities</text>
+  <rect x="604" y="95" width="176" height="125" rx="10" fill="#e2eefc"/>
+  <text class="num" x="624" y="129">T03</text>
+  <text class="tt" x="624" y="159">Context of Use</text>
+  <rect x="792" y="95" width="176" height="125" rx="10" fill="#e2eefc"/>
+  <text class="num" x="812" y="129">T04</text>
+  <text class="tt" x="812" y="159">Touch Gestures</text>
+  <text class="tt" x="812" y="181">and Recognition</text>
+  <text class="tt" x="812" y="203">Errors</text>
+  <rect x="980" y="95" width="176" height="125" rx="10" fill="#e2eefc"/>
+  <text class="num" x="1000" y="129">T05</text>
+  <text class="tt" x="1000" y="159">In-Air Gestures</text>
+  <text class="drop" x="1000" y="214">to the script · 2nd</text>
+  <rect x="40" y="330" width="176" height="125" rx="10" fill="#1a2f6e"/>
+  <text class="numw" x="60" y="364">T06</text>
+  <text class="ttw" x="60" y="394">Anchor I:</text>
+  <text class="ttw" x="60" y="416">The Car Case</text>
+  <rect x="228" y="330" width="176" height="125" rx="10" fill="#e2eefc"/>
+  <text class="num" x="248" y="364">T07</text>
+  <text class="tt" x="248" y="394">Voice Dialogs:</text>
+  <text class="tt" x="248" y="416">Written and</text>
+  <text class="tt" x="248" y="438">Generated</text>
+  <rect x="416" y="330" width="176" height="125" rx="10" fill="#e2eefc"/>
+  <text class="num" x="436" y="364">T08</text>
+  <text class="tt" x="436" y="394">Chat and the</text>
+  <text class="tt" x="436" y="416">Articulation</text>
+  <text class="tt" x="436" y="438">Barrier</text>
+  <rect x="604" y="330" width="176" height="125" rx="10" fill="#e2eefc"/>
+  <text class="num" x="624" y="364">T09</text>
+  <text class="tt" x="624" y="394">The Audit</text>
+  <text class="tt" x="624" y="416">Workshop</text>
+  <text class="drop" x="624" y="449">to the script · 1st</text>
+  <rect x="792" y="330" width="176" height="125" rx="10" fill="#e2eefc"/>
+  <text class="num" x="812" y="364">T10</text>
+  <text class="tt" x="812" y="394">Accessibility:</text>
+  <text class="tt" x="812" y="416">Law and</text>
+  <text class="tt" x="812" y="438">Checking</text>
+  <rect x="980" y="330" width="176" height="125" rx="10" fill="#e2eefc"/>
+  <text class="num" x="1000" y="364">T11</text>
+  <text class="tt" x="1000" y="394">Modality</text>
+  <text class="tt" x="1000" y="416">Substitution</text>
+  <rect x="40" y="525" width="176" height="125" rx="10" fill="#1a2f6e"/>
+  <text class="numw" x="60" y="559">T12</text>
+  <text class="ttw" x="60" y="589">Anchor II: The</text>
+  <text class="ttw" x="60" y="611">Terminal for</text>
+  <text class="ttw" x="60" y="633">Everyone</text>
+  <rect x="228" y="525" width="176" height="125" rx="10" fill="#e2eefc"/>
+  <text class="num" x="248" y="559">T13</text>
+  <text class="tt" x="248" y="589">Interfaces</text>
+  <text class="tt" x="248" y="611">at Runtime</text>
+  <rect x="416" y="525" width="176" height="125" rx="10" fill="none" stroke="#5a6472" stroke-width="2" stroke-dasharray="8 6"/>
+  <text class="tt" x="436" y="582">Extra week?</text>
+  <text class="tt" x="436" y="604">Question hour</text>
+  <rect x="416" y="232" width="176" height="32" rx="6" fill="#7fb6f6"/>
+  <text class="utag" x="504" y="254" text-anchor="middle">Ü1 · Toolchain</text>
+  <rect x="792" y="232" width="364" height="32" rx="6" fill="#7fb6f6"/>
+  <text class="utag" x="974" y="254" text-anchor="middle">Ü2 · Gestures</text>
+  <rect x="228" y="467" width="176" height="32" rx="6" fill="#7fb6f6"/>
+  <text class="utag" x="316" y="489" text-anchor="middle">Ü3 · Voice</text>
+  <rect x="416" y="467" width="176" height="32" rx="6" fill="#7fb6f6"/>
+  <text class="utag" x="504" y="489" text-anchor="middle">Ü4 · Integration</text>
+  <rect x="792" y="467" width="364" height="32" rx="6" fill="#7fb6f6"/>
+  <text class="utag" x="974" y="489" text-anchor="middle">Ü5 · Accessibility audit</text>
+  <rect x="40" y="662" width="176" height="32" rx="6" fill="#7fb6f6"/>
+  <text class="utag" x="128" y="684" text-anchor="middle">Ü6 · User test</text>
+  <rect x="228" y="662" width="176" height="32" rx="6" fill="#ffffff" stroke="#7fb6f6" stroke-width="2" stroke-dasharray="6 5"/>
+  <text class="utag" x="316" y="684" text-anchor="middle">Reserve: catch-up</text>
+  <rect x="416" y="48" width="250" height="34" rx="6" fill="#fcd430"/>
+  <text class="mtag" x="434" y="71">Team + project idea</text>
+  <rect x="416" y="282" width="270" height="34" rx="6" fill="#fcd430"/>
+  <text class="mtag" x="434" y="305">Working prototype · Ü4</text>
+  <rect x="630" y="539" width="330" height="34" rx="6" fill="#fcd430"/>
+  <text class="mtag" x="648" y="562">Mock exam · handed out in T13</text>
+  <rect x="630" y="587" width="330" height="34" rx="6" fill="#fcd430"/>
+  <text class="mtag" x="648" y="610">Written exam · 90 min, no AI</text>
+  <line x1="40" y1="716" x2="1160" y2="716" stroke="#c7cdd4" stroke-width="1"/>
+  <rect x="40" y="733" width="26" height="26" rx="5" fill="#e2eefc"/>
+  <text class="leg" x="78" y="753">session · one block of 135 minutes</text>
+  <rect x="640" y="733" width="26" height="26" rx="5" fill="#1a2f6e"/>
+  <text class="leg" x="678" y="753">anchor: one full session, one case</text>
+  <rect x="40" y="773" width="26" height="26" rx="5" fill="#7fb6f6"/>
+  <text class="leg" x="78" y="793">exercise block · 180 min, one sheet</text>
+  <rect x="640" y="773" width="26" height="26" rx="5" fill="#fcd430"/>
+  <text class="leg" x="678" y="793">milestone and exam</text>
+  <text class="foot" x="40" y="833">Schema, MIS · 13 sessions in 14 weeks · exercise blocks about every two weeks, no fixed week</text>
+</svg>

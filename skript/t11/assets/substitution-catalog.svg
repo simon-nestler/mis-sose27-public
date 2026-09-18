@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 640" role="img" aria-labelledby="t d">
+  <title id="t">The substitution catalog: five rows — captions, image and scene description, voice input, touch and switch input, haptic feedback — each with a who-gains and a who-pays column, both still empty</title>
+  <desc id="d">A five-row, three-column table frame. Each row names one modality substitution as a route chip (Audio to Text: captions; Visual to Audio or Text: image and scene description; Touch to Speech: voice input; Speech to Touch: touch and switch input; Eyes and Ears to Skin: haptic feedback). The two right-hand columns, labeled who gains and who pays, are empty cells; the who-pays column is outlined in yellow. A footnote reads: filled row by row — no row is free.</desc>
+  <style>
+    text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill: #031121; }
+    .colh { font-size: 22px; font-weight: 700; }
+    .colq { font-size: 19px; fill: #5a6472; }
+    .chip { fill: #1a2f6e; }
+    .chiptext { font-size: 20px; font-weight: 700; fill: #ffffff; text-anchor: middle; }
+    .lab { font-size: 22px; font-weight: 600; }
+    .cell { fill: #e8eef7; }
+    .paycell { fill: #e8eef7; stroke: #FCD430; stroke-width: 3; }
+  </style>
+  <rect width="1200" height="640" fill="#ffffff"/>
+
+  <text class="colq" x="40" y="52">five substitutions</text>
+  <text class="colh" x="715" y="52" text-anchor="middle">who gains</text>
+  <text class="colh" x="1025" y="52" text-anchor="middle">who pays</text>
+
+  <!-- Row 1: captions -->
+  <g>
+    <rect class="chip" x="40" y="104" width="220" height="44" rx="8"/>
+    <text class="chiptext" x="150" y="133">Audio → Text</text>
+    <text class="lab" x="280" y="133">captions</text>
+    <rect class="cell" x="570" y="92" width="290" height="68" rx="10"/>
+    <rect class="paycell" x="890" y="92" width="270" height="68" rx="10"/>
+  </g>
+
+  <!-- Row 2: image and scene description -->
+  <g>
+    <rect class="chip" x="40" y="212" width="220" height="44" rx="8"/>
+    <text class="chiptext" x="150" y="241">Visual → Audio/Text</text>
+    <text class="lab" x="280" y="241">image and scene description</text>
+    <rect class="cell" x="570" y="200" width="290" height="68" rx="10"/>
+    <rect class="paycell" x="890" y="200" width="270" height="68" rx="10"/>
+  </g>
+
+  <!-- Row 3: voice input -->
+  <g>
+    <rect class="chip" x="40" y="320" width="220" height="44" rx="8"/>
+    <text class="chiptext" x="150" y="349">Touch → Speech</text>
+    <text class="lab" x="280" y="349">voice input</text>
+    <rect class="cell" x="570" y="308" width="290" height="68" rx="10"/>
+    <rect class="paycell" x="890" y="308" width="270" height="68" rx="10"/>
+  </g>
+
+  <!-- Row 4: touch and switch input -->
+  <g>
+    <rect class="chip" x="40" y="428" width="220" height="44" rx="8"/>
+    <text class="chiptext" x="150" y="457">Speech → Touch</text>
+    <text class="lab" x="280" y="457">touch and switch input</text>
+    <rect class="cell" x="570" y="416" width="290" height="68" rx="10"/>
+    <rect class="paycell" x="890" y="416" width="270" height="68" rx="10"/>
+  </g>
+
+  <!-- Row 5: haptic feedback -->
+  <g>
+    <rect class="chip" x="40" y="536" width="220" height="44" rx="8"/>
+    <text class="chiptext" x="150" y="565">Eyes/Ears → Skin</text>
+    <text class="lab" x="280" y="565">haptic feedback</text>
+    <rect class="cell" x="570" y="524" width="290" height="68" rx="10"/>
+    <rect class="paycell" x="890" y="524" width="270" height="68" rx="10"/>
+  </g>
+
+  <text class="colq" x="40" y="628">filled row by row — no row is free</text>
+</svg>

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" role="img" aria-labelledby="t d">
+  <title id="t">The fishbowl: five roles in the inner circle, an outer circle that may tap in and swap</title>
+  <desc id="d">A dashed outer ellipse labelled outer circle, may tap in and swap, surrounds an inner ellipse holding the refill case. Five role boxes sit on the inner circle: product manager (cost pressure), designer (defends the form), chatbot vendor, user with an articulation barrier, accessibility officer. A footer line states that every role card carries two documented arguments from the research base.</desc>
+  <style>
+    text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill: #031121; }
+    .role { font-size: 24px; font-weight: 700; text-anchor: middle; }
+    .gloss { font-size: 19px; fill: #5a6472; text-anchor: middle; }
+    .case { font-size: 24px; font-weight: 700; text-anchor: middle; }
+    .ring { font-size: 20px; fill: #5a6472; text-anchor: middle; }
+    .foot { font-size: 20px; fill: #5a6472; }
+    .chip { fill: #e5effb; stroke: #c7cdd4; stroke-width: 2; }
+    .mark { fill: #fcd430; }
+  </style>
+  <rect width="1200" height="680" fill="#ffffff"/>
+
+  <ellipse cx="600" cy="330" rx="520" ry="280" fill="none" stroke="#c7cdd4" stroke-width="2" stroke-dasharray="10 8"/>
+  <text class="ring" x="600" y="90">outer circle &#8212; listens, taps in, swaps</text>
+
+  <ellipse cx="600" cy="330" rx="290" ry="185" fill="none" stroke="#031121" stroke-width="2"/>
+  <text class="case" x="600" y="330">the refill case</text>
+  <rect class="mark" x="530" y="344" width="140" height="6"/>
+  <text class="ring" x="600" y="378">chat or form?</text>
+
+  <rect class="chip" x="460" y="110" width="280" height="72"/>
+  <text class="role" x="600" y="142">product manager</text>
+  <text class="gloss" x="600" y="168">cost pressure</text>
+
+  <rect class="chip" x="140" y="264" width="260" height="72"/>
+  <text class="role" x="270" y="296">designer</text>
+  <text class="gloss" x="270" y="322">defends the form</text>
+
+  <rect class="chip" x="810" y="264" width="250" height="72"/>
+  <text class="role" x="935" y="308">chatbot vendor</text>
+
+  <rect class="chip" x="240" y="480" width="310" height="72"/>
+  <text class="role" x="395" y="512">user</text>
+  <text class="gloss" x="395" y="538">with an articulation barrier</text>
+
+  <rect class="chip" x="660" y="480" width="310" height="72"/>
+  <text class="role" x="815" y="524">accessibility officer</text>
+
+  <text class="foot" x="60" y="650">Every role card carries two documented arguments from the research base.</text>
+</svg>

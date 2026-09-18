@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" role="img" aria-labelledby="t d">
+  <title id="t">One page, two passes: checker first, human second — the comparison of the two lists is the data</title>
+  <desc id="d">Schema of the live test. On the left, one prepared public page. Two arrows lead to two passes: pass 1, the checker, 5 minutes automated, produces list A - found only by the checker. Pass 2, the human, 15 minutes under three test orders (keyboard only, 200 percent zoom, explain the images without seeing them), produces list B - found only by the human. A bracket on the right connects the two lists; a highlighted marker states that the comparison of the two lists is the data.</desc>
+  <style>
+    text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill: #031121; }
+    .h { font-size: 24px; font-weight: 700; }
+    .b { font-size: 20px; }
+    .q { font-size: 18px; fill: #5a6472; }
+    .chiptitle { font-size: 22px; font-weight: 700; fill: #ffffff; }
+    .chipsub { font-size: 18px; fill: #cfe0f4; }
+    .arrow { stroke: #1a2f6e; stroke-width: 3; fill: none; }
+    .box { fill: none; stroke: #031121; stroke-width: 2; }
+    .chip { fill: #1a2f6e; }
+  </style>
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#1a2f6e"/>
+    </marker>
+  </defs>
+  <rect width="1200" height="600" fill="#ffffff"/>
+
+  <!-- The page -->
+  <rect class="box" x="40" y="220" width="210" height="160" rx="12"/>
+  <text class="h" x="145" y="290" text-anchor="middle">one prepared</text>
+  <text class="h" x="145" y="322" text-anchor="middle">public page</text>
+  <text class="q" x="145" y="410" text-anchor="middle">university or public authority</text>
+  <text class="q" x="145" y="436" text-anchor="middle">same page for every pair</text>
+
+  <!-- Arrows page -> passes -->
+  <path class="arrow" d="M 250 270 C 300 270, 300 150, 340 150" marker-end="url(#arr)"/>
+  <path class="arrow" d="M 250 330 C 300 330, 300 450, 340 450" marker-end="url(#arr)"/>
+
+  <!-- Pass 1 chip -->
+  <rect class="chip" x="345" y="105" width="290" height="90" rx="10"/>
+  <text class="chiptitle" x="490" y="143" text-anchor="middle">Pass 1 — the checker</text>
+  <text class="chipsub" x="490" y="175" text-anchor="middle">5 minutes, automated</text>
+
+  <!-- Pass 2 chip -->
+  <rect class="chip" x="345" y="405" width="290" height="90" rx="10"/>
+  <text class="chiptitle" x="490" y="443" text-anchor="middle">Pass 2 — the human</text>
+  <text class="chipsub" x="490" y="475" text-anchor="middle">15 minutes · three orders</text>
+  <text class="q" x="490" y="530" text-anchor="middle">keyboard only · 200 % zoom</text>
+  <text class="q" x="490" y="556" text-anchor="middle">explain the images without seeing them</text>
+
+  <!-- Arrows passes -> lists -->
+  <line class="arrow" x1="635" y1="150" x2="700" y2="150" marker-end="url(#arr)"/>
+  <line class="arrow" x1="635" y1="450" x2="700" y2="450" marker-end="url(#arr)"/>
+
+  <!-- List A -->
+  <rect class="box" x="710" y="95" width="300" height="110" rx="12"/>
+  <text class="h" x="860" y="143" text-anchor="middle">List A</text>
+  <text class="b" x="860" y="177" text-anchor="middle">found only by the checker</text>
+
+  <!-- List B -->
+  <rect class="box" x="710" y="395" width="300" height="110" rx="12"/>
+  <text class="h" x="860" y="443" text-anchor="middle">List B</text>
+  <text class="b" x="860" y="477" text-anchor="middle">found only by the human</text>
+
+  <!-- Comparison bracket -->
+  <path class="arrow" d="M 1040 150 L 1080 150 L 1080 450 L 1040 450"/>
+  <rect x="1064" y="284" width="32" height="32" rx="6" transform="rotate(45 1080 300)" fill="#FCD430"/>
+  <text class="h" x="1080" y="248" text-anchor="middle">the</text>
+  <text class="h" x="1080" y="278" text-anchor="middle">comparison</text>
+  <text class="b" x="1080" y="352" text-anchor="middle">of the two lists</text>
+  <text class="b" x="1080" y="380" text-anchor="middle">is the data</text>
+</svg>

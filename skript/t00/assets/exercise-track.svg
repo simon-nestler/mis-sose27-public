@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" role="img" aria-labelledby="t d">
+  <title id="t">The second track: six exercise blocks of 180 minutes every two weeks, each docking to a lecture theme, with the prototype milestones from team formation to the revised, user-tested prototype</title>
+  <desc id="d">Two horizontal rails. The top rail shows the thirteen weekly lecture sessions T01 to T13. The bottom rail shows six exercise blocks in weeks 2, 4, 6, 8, 10 and 12: toolchain, gestures, voice, integration, accessibility audit, and user test. Connector lines link each block to the lecture theme it docks to: exercise 1 to T02, exercise 2 to T04 and T05, exercise 3 to T07, exercise 4 to T06 and T08, exercise 5 to T10 and T11, exercise 6 to T12. Each block names its milestone; the working multimodal prototype in block 4 and the test protocol with revised prototype in block 6 are emphasized. A footer states: 180 minutes in one block, the sheet is the medium, upload within 48 hours, six of six uploads earn the five percent exam bonus, and a seventh date is held in reserve as a catch-up block.</desc>
+  <style>
+    text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill: #031121; }
+    .rail{ font-size: 15px; font-weight: 700; fill: #1a2f6e; }
+    .tn  { font-size: 14px; font-weight: 700; fill: #1a2f6e; text-anchor: middle; }
+    .wk  { font-size: 10.5px; fill: #5a6472; text-anchor: middle; }
+    .un  { font-size: 15px; font-weight: 700; fill: #1a2f6e; }
+    .dk  { font-size: 11.5px; font-weight: 700; fill: #5a6472; }
+    .ms  { font-size: 12px; fill: #031121; }
+    .msb { font-size: 12px; font-weight: 700; fill: #031121; }
+    .ft  { font-size: 14px; fill: #5a6472; }
+    .ftb { font-size: 14px; font-weight: 700; fill: #031121; }
+    .tile{ fill: #f2f6fa; stroke: #c7cdd4; stroke-width: 1.5; }
+    .ub  { fill: #dfe9f3; stroke: #1a2f6e; stroke-width: 1.5; }
+    .link{ stroke: #c7cdd4; stroke-width: 1.5; fill: none; }
+  </style>
+  <rect width="1200" height="600" fill="#ffffff"/>
+
+  <text class="rail" x="38" y="56">Lecture track — 13 sessions, weekly, 135 min</text>
+
+  <!-- week tiles T01..T13 -->
+  <rect class="tile" x="38"   y="80" width="80" height="54" rx="8"/>
+  <rect class="tile" x="126"  y="80" width="80" height="54" rx="8"/>
+  <rect class="tile" x="214"  y="80" width="80" height="54" rx="8"/>
+  <rect class="tile" x="302"  y="80" width="80" height="54" rx="8"/>
+  <rect class="tile" x="390"  y="80" width="80" height="54" rx="8"/>
+  <rect class="tile" x="478"  y="80" width="80" height="54" rx="8"/>
+  <rect class="tile" x="566"  y="80" width="80" height="54" rx="8"/>
+  <rect class="tile" x="654"  y="80" width="80" height="54" rx="8"/>
+  <rect class="tile" x="742"  y="80" width="80" height="54" rx="8"/>
+  <rect class="tile" x="830"  y="80" width="80" height="54" rx="8"/>
+  <rect class="tile" x="918"  y="80" width="80" height="54" rx="8"/>
+  <rect class="tile" x="1006" y="80" width="80" height="54" rx="8"/>
+  <rect class="tile" x="1094" y="80" width="80" height="54" rx="8"/>
+  <text class="tn" x="78"   y="104">T01</text><text class="wk" x="78"   y="122">wk 1</text>
+  <text class="tn" x="166"  y="104">T02</text><text class="wk" x="166"  y="122">wk 2</text>
+  <text class="tn" x="254"  y="104">T03</text><text class="wk" x="254"  y="122">wk 3</text>
+  <text class="tn" x="342"  y="104">T04</text><text class="wk" x="342"  y="122">wk 4</text>
+  <text class="tn" x="430"  y="104">T05</text><text class="wk" x="430"  y="122">wk 5</text>
+  <text class="tn" x="518"  y="104">T06</text><text class="wk" x="518"  y="122">wk 6</text>
+  <text class="tn" x="606"  y="104">T07</text><text class="wk" x="606"  y="122">wk 7</text>
+  <text class="tn" x="694"  y="104">T08</text><text class="wk" x="694"  y="122">wk 8</text>
+  <text class="tn" x="782"  y="104">T09</text><text class="wk" x="782"  y="122">wk 9</text>
+  <text class="tn" x="870"  y="104">T10</text><text class="wk" x="870"  y="122">wk 10</text>
+  <text class="tn" x="958"  y="104">T11</text><text class="wk" x="958"  y="122">wk 11</text>
+  <text class="tn" x="1046" y="104">T12</text><text class="wk" x="1046" y="122">wk 12</text>
+  <text class="tn" x="1134" y="104">T13</text><text class="wk" x="1134" y="122">wk 13</text>
+
+  <!-- docking connectors -->
+  <line class="link" x1="166" y1="250" x2="166"  y2="134"/>
+  <line class="link" x1="326" y1="250" x2="342"  y2="134"/>
+  <line class="link" x1="358" y1="250" x2="430"  y2="134"/>
+  <line class="link" x1="518" y1="250" x2="606"  y2="134"/>
+  <line class="link" x1="678" y1="250" x2="518"  y2="134"/>
+  <line class="link" x1="710" y1="250" x2="694"  y2="134"/>
+  <line class="link" x1="854" y1="250" x2="870"  y2="134"/>
+  <line class="link" x1="886" y1="250" x2="958"  y2="134"/>
+  <line class="link" x1="1046" y1="250" x2="1046" y2="134"/>
+
+  <text class="rail" x="38" y="200">Exercise track — 6 blocks, every two weeks, 180 min</text>
+
+  <!-- exercise blocks -->
+  <rect class="ub" x="84"  y="250" width="164" height="150" rx="10"/>
+  <text class="un" x="100" y="278">Ü1 · Toolchain</text>
+  <text class="dk" x="100" y="300">docks to T02</text>
+  <text class="ms" x="100" y="330">team + project</text>
+  <text class="ms" x="100" y="348">idea fixed</text>
+
+  <rect class="ub" x="260" y="250" width="164" height="150" rx="10"/>
+  <text class="un" x="276" y="278">Ü2 · Gestures</text>
+  <text class="dk" x="276" y="300">docks to T04/T05</text>
+  <text class="ms" x="276" y="330">gesture set +</text>
+  <text class="ms" x="276" y="348">guessability protocol</text>
+
+  <rect class="ub" x="436" y="250" width="164" height="150" rx="10"/>
+  <text class="un" x="452" y="278">Ü3 · Voice</text>
+  <text class="dk" x="452" y="300">docks to T07</text>
+  <text class="ms" x="452" y="330">dialog prototype +</text>
+  <text class="ms" x="452" y="348">documented failure</text>
+
+  <rect class="ub" x="612" y="250" width="164" height="150" rx="10"/>
+  <text class="un" x="628" y="278">Ü4 · Integration</text>
+  <text class="dk" x="628" y="300">docks to T06/T08</text>
+  <text class="msb" x="628" y="330">working multimodal</text>
+  <text class="msb" x="628" y="348">prototype</text>
+
+  <rect class="ub" x="788" y="250" width="164" height="150" rx="10"/>
+  <text class="un" x="804" y="278">Ü5 · Audit</text>
+  <text class="dk" x="804" y="300">docks to T10/T11</text>
+  <text class="ms" x="804" y="330">audit report + one</text>
+  <text class="ms" x="804" y="348">built improvement</text>
+
+  <rect class="ub" x="964" y="250" width="164" height="150" rx="10"/>
+  <text class="un" x="980" y="278">Ü6 · User test</text>
+  <text class="dk" x="980" y="300">docks to T12</text>
+  <text class="msb" x="980" y="330">test protocol +</text>
+  <text class="msb" x="980" y="348">revised prototype</text>
+
+  <!-- footer facts -->
+  <rect x="38" y="440" width="1136" height="130" rx="10" fill="#f7f9fb" stroke="#c7cdd4" stroke-width="1.5"/>
+  <text class="ftb" x="58" y="472">How the track works</text>
+  <text class="ft" x="58" y="498">180 min in one block · the exercise sheet is the medium — no slide deck · every block opens by naming the lecture theme it cashes in</text>
+  <rect x="58" y="514" width="46" height="24" rx="12" fill="#fcd430"/>
+  <text x="81" y="531" text-anchor="middle" style="font-size:12.5px;font-weight:700;fill:#031121">5 %</text>
+  <text class="ft" x="116" y="531">upload within 48 h after each block — six of six uploads earn the 5 % exam bonus (APO §25(2))</text>
+  <text class="ft" x="58" y="558">a seventh date is held in reserve as a catch-up block</text>
+</svg>

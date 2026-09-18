@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1260 620" role="img" aria-labelledby="t d">
+  <title id="t">State diagram: the three-state model of input — a mouse passes through out of range, tracking and engaged; direct touch is missing the tracking state, contact is already commitment</title>
+  <desc id="d">Two panels. Left panel, a mouse: three state boxes in a row — out of range, tracking, engaged — connected by arrows in both directions; tracking is labeled as the safe state for aiming. Right panel, direct touch: the tracking box is missing, shown only as a dashed empty outline; a single arrow jumps directly from out of range to engaged, labeled contact equals commitment.</desc>
+  <style>
+    text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill: #031121; }
+    .h { font-size: 26px; font-weight: 700; }
+    .st { font-size: 22px; font-weight: 700; }
+    .sub { font-size: 17px; fill: #5a6472; }
+    .lbl { font-size: 17px; fill: #1a2f6e; }
+    .warn { font-size: 17px; font-weight: 700; fill: #8a5f00; }
+    .src { font-size: 16px; fill: #5a6472; }
+    .box { fill: #e5effb; stroke: #c7cdd4; stroke-width: 2; }
+    .boxe { fill: #031121; }
+    .ghost { fill: none; stroke: #c7cdd4; stroke-width: 2; stroke-dasharray: 7 6; }
+    .arr { fill: none; stroke: #3391ff; stroke-width: 3; marker-end: url(#a); }
+    .jump { fill: none; stroke: #1a2f6e; stroke-width: 4; marker-end: url(#aj); }
+    .divider { stroke: #c7cdd4; stroke-width: 2; }
+    .accent { fill: #fcd430; }
+  </style>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3391ff"/></marker>
+    <marker id="aj" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1a2f6e"/></marker>
+  </defs>
+  <rect width="1260" height="620" fill="#ffffff"/>
+  <line class="divider" x1="630" y1="60" x2="630" y2="540"/>
+
+  <!-- Left panel: mouse -->
+  <text class="h" x="50" y="70">Mouse — all three states</text>
+  <rect class="accent" x="50" y="84" width="64" height="6"/>
+
+  <rect class="box" x="50" y="230" width="150" height="100" rx="6"/>
+  <text class="st" x="70" y="273">out of</text>
+  <text class="st" x="70" y="301">range</text>
+
+  <rect class="box" x="250" y="230" width="170" height="100" rx="6"/>
+  <text class="st" x="272" y="278">tracking</text>
+
+  <rect class="boxe" x="470" y="230" width="150" height="100" rx="6"/>
+  <text class="st" x="490" y="278" style="fill:#ffffff">engaged</text>
+
+  <path class="arr" d="M 200 262 L 244 262"/>
+  <path class="arr" d="M 250 298 L 206 298"/>
+  <text class="lbl" x="176" y="222">sensed</text>
+
+  <path class="arr" d="M 420 262 L 464 262"/>
+  <path class="arr" d="M 470 298 L 426 298"/>
+  <text class="lbl" x="398" y="222">press</text>
+  <text class="lbl" x="392" y="352">release</text>
+
+  <text class="sub" x="250" y="382">the safe state: a cursor follows,</text>
+  <text class="sub" x="250" y="406">you aim — nothing is committed</text>
+
+  <!-- Right panel: touch -->
+  <text class="h" x="680" y="70">Direct touch — the tracking state is missing</text>
+  <rect class="accent" x="680" y="84" width="64" height="6"/>
+
+  <rect class="box" x="680" y="230" width="150" height="100" rx="6"/>
+  <text class="st" x="700" y="273">out of</text>
+  <text class="st" x="700" y="301">range</text>
+
+  <rect class="ghost" x="880" y="230" width="170" height="100" rx="6"/>
+  <text class="warn" x="902" y="278">tracking?</text>
+  <text class="warn" x="880" y="360">missing on glass</text>
+
+  <rect class="boxe" x="1100" y="230" width="150" height="100" rx="6"/>
+  <text class="st" x="1120" y="278" style="fill:#ffffff">engaged</text>
+
+  <path class="jump" d="M 830 250 C 900 160, 1030 160, 1094 244"/>
+  <text class="lbl" x="850" y="140" style="font-weight:700">contact = commitment</text>
+  <text class="sub" x="850" y="164">touching and triggering collapse into one event</text>
+
+  <text class="sub" x="680" y="440">aiming and committing happen at once — every</text>
+  <text class="sub" x="680" y="464">aiming error becomes an acting error</text>
+
+  <text class="src" x="50" y="580">After Buxton, W.: A Three-State Model of Graphical Input, Proc. INTERACT 1990.</text>
+</svg>

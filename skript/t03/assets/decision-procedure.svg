@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 430" role="img"
+     aria-labelledby="dp-title dp-desc" font-family="Inter, system-ui, sans-serif">
+  <title id="dp-title">The decision procedure of the semester: four context stations, then the modality choice as a triple</title>
+  <desc id="dp-desc">Flow diagram. Four numbered boxes in a row — Users, Environment, Task, Error consequences — each with its guiding question, connected by arrows. An arrow leads down to a fifth, wider box: the modality choice, written as a triple of choice, rejected alternative and price. A yellow marker highlights the output box; the modality comes last.</desc>
+  <style>
+    .box    { fill: none; stroke: var(--rule, #c7cdd4); stroke-width: 1.5; }
+    .out    { fill: none; stroke: var(--ink, #031121); stroke-width: 2; }
+    .num    { fill: #1a2f6e; }
+    .numtxt { fill: #ffffff; font-size: 16px; font-weight: 700; text-anchor: middle; }
+    .name   { fill: var(--ink, #031121); font-size: 18px; font-weight: 700; }
+    .q      { fill: var(--ink-soft, #5a6472); font-size: 14.5px; }
+    .triple { fill: var(--ink, #031121); font-size: 22px; font-weight: 700; text-anchor: middle; }
+    .plus   { fill: var(--ink-soft, #5a6472); font-size: 22px; text-anchor: middle; }
+    .foot   { fill: var(--ink-soft, #5a6472); font-size: 15px; text-anchor: middle; }
+    .arrow  { stroke: var(--ink, #031121); stroke-width: 2; fill: none; }
+    .head   { fill: var(--ink, #031121); }
+    .marke  { fill: #fcd430; }
+  </style>
+
+  <!-- Station 1: Users -->
+  <rect class="box" x="30" y="36" width="258" height="132"/>
+  <circle class="num" cx="60" cy="66" r="15"/>
+  <text class="numtxt" x="60" y="72">1</text>
+  <text class="name" x="86" y="72">Users</text>
+  <text class="q" x="54" y="112">who, how varied,</text>
+  <text class="q" x="54" y="134">how experienced?</text>
+
+  <!-- Station 2: Environment -->
+  <rect class="box" x="324" y="36" width="258" height="132"/>
+  <circle class="num" cx="354" cy="66" r="15"/>
+  <text class="numtxt" x="354" y="72">2</text>
+  <text class="name" x="380" y="72">Environment</text>
+  <text class="q" x="348" y="112">noise, light, hands,</text>
+  <text class="q" x="348" y="134">onlookers</text>
+
+  <!-- Station 3: Task -->
+  <rect class="box" x="618" y="36" width="258" height="132"/>
+  <circle class="num" cx="648" cy="66" r="15"/>
+  <text class="numtxt" x="648" y="72">3</text>
+  <text class="name" x="674" y="72">Task</text>
+  <text class="q" x="642" y="112">what, how often, under</text>
+  <text class="q" x="642" y="134">what time pressure?</text>
+
+  <!-- Station 4: Error consequences -->
+  <rect class="box" x="912" y="36" width="258" height="132"/>
+  <circle class="num" cx="942" cy="66" r="15"/>
+  <text class="numtxt" x="942" y="72">4</text>
+  <text class="name" x="968" y="72">Error consequences</text>
+  <text class="q" x="936" y="112">what happens when</text>
+  <text class="q" x="936" y="134">recognition fails?</text>
+
+  <!-- Arrows between stations -->
+  <line class="arrow" x1="292" y1="102" x2="314" y2="102"/>
+  <polygon class="head" points="314,96 324,102 314,108"/>
+  <line class="arrow" x1="586" y1="102" x2="608" y2="102"/>
+  <polygon class="head" points="608,96 618,102 608,108"/>
+  <line class="arrow" x1="880" y1="102" x2="902" y2="102"/>
+  <polygon class="head" points="902,96 912,102 902,108"/>
+
+  <!-- Arrow down to the output -->
+  <line class="arrow" x1="600" y1="172" x2="600" y2="208"/>
+  <polygon class="head" points="594,208 606,208 600,218"/>
+
+  <!-- Station 5: the output format -->
+  <rect class="out" x="30" y="224" width="1140" height="156"/>
+  <rect class="marke" x="32" y="226" width="6" height="152"/>
+  <circle class="num" cx="70" cy="256" r="15"/>
+  <text class="numtxt" x="70" y="262">5</text>
+  <text class="name" x="96" y="262">Modality choice — the output format</text>
+  <text class="triple" x="220" y="320">the choice</text>
+  <text class="plus" x="405" y="320">+</text>
+  <text class="triple" x="600" y="320">the rejected alternative</text>
+  <text class="plus" x="800" y="320">+</text>
+  <text class="triple" x="980" y="320">the price</text>
+  <text class="foot" x="600" y="362">all three, always, in writing</text>
+</svg>

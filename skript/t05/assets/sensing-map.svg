@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1260 560" role="img" aria-labelledby="t d">
+  <title id="t">Map: three ways a machine can see your hand — camera, radar, EMG</title>
+  <desc id="d">Three panels. Camera: a camera with a dashed line-of-sight cone infers a hand skeleton of landmarks; needs light, line of sight and the hand in frame. Radar: a chip emits radio-wave arcs that pass through a strip of fabric and read the micro-movement of fingertips; no image, sees no faces. EMG: a wristband on a lowered forearm picks up the muscle signal as an electrical trace; no line of sight needed.</desc>
+  <style>
+    text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill: #031121; }
+    .h { font-size: 26px; font-weight: 700; }
+    .c { font-size: 19px; }
+    .s { font-size: 17px; fill: #5a6472; }
+    .panel { fill: #ffffff; stroke: #c7cdd4; stroke-width: 2; }
+    .bone { fill: none; stroke: #3391ff; stroke-width: 3; }
+    .dot { fill: #031121; }
+    .sight { fill: none; stroke: #3391ff; stroke-width: 2.5; stroke-dasharray: 7 6; }
+    .wave { fill: none; stroke: #3391ff; stroke-width: 3; }
+    .finger { fill: none; stroke: #031121; stroke-width: 11; stroke-linecap: round; }
+    .accent { fill: none; stroke: #fcd430; stroke-width: 4; stroke-linecap: round; }
+    .limb { fill: #e5effb; stroke: #c7cdd4; stroke-width: 2; }
+    .signal { fill: none; stroke: #3391ff; stroke-width: 3; }
+  </style>
+  <rect width="1260" height="560" fill="#ffffff"/>
+
+  <!-- Panel 1: Camera -->
+  <rect class="panel" x="30" y="60" width="380" height="330"/>
+  <text class="h" x="50" y="100">Camera</text>
+  <rect x="76" y="140" width="28" height="12" fill="#031121"/>
+  <rect x="60" y="150" width="84" height="56" rx="6" fill="#031121"/>
+  <circle cx="102" cy="178" r="15" fill="none" stroke="#ffffff" stroke-width="4"/>
+  <line class="sight" x1="146" y1="166" x2="320" y2="118"/>
+  <line class="sight" x1="146" y1="190" x2="320" y2="255"/>
+  <!-- hand skeleton: landmarks -->
+  <path class="bone" d="M310,235 L285,210 L268,192"/>
+  <path class="bone" d="M310,235 L295,175 L290,140"/>
+  <path class="bone" d="M310,235 L312,170 L313,132"/>
+  <path class="bone" d="M310,235 L328,175 L333,140"/>
+  <path class="bone" d="M310,235 L343,190 L350,162"/>
+  <circle class="dot" cx="310" cy="235" r="6"/>
+  <circle class="dot" cx="285" cy="210" r="4.5"/><circle class="dot" cx="268" cy="192" r="4.5"/>
+  <circle class="dot" cx="295" cy="175" r="4.5"/><circle class="dot" cx="290" cy="140" r="4.5"/>
+  <circle class="dot" cx="312" cy="170" r="4.5"/><circle class="dot" cx="313" cy="132" r="4.5"/>
+  <circle class="dot" cx="328" cy="175" r="4.5"/><circle class="dot" cx="333" cy="140" r="4.5"/>
+  <circle class="dot" cx="343" cy="190" r="4.5"/><circle class="dot" cx="350" cy="162" r="4.5"/>
+  <text class="s" x="262" y="300">landmarks</text>
+  <text class="c" x="50" y="430">An RGB image becomes a hand skeleton</text>
+  <text class="s" x="50" y="462">needs: light · line of sight · the hand in frame</text>
+
+  <!-- Panel 2: Radar -->
+  <rect class="panel" x="440" y="60" width="380" height="330"/>
+  <text class="h" x="460" y="100">Radar</text>
+  <rect x="470" y="180" width="64" height="64" rx="8" fill="#031121"/>
+  <line x1="486" y1="196" x2="518" y2="196" stroke="#ffffff" stroke-width="3"/>
+  <line x1="486" y1="212" x2="518" y2="212" stroke="#ffffff" stroke-width="3"/>
+  <line x1="486" y1="228" x2="518" y2="228" stroke="#ffffff" stroke-width="3"/>
+  <path class="wave" d="M560,172 A40,40 0 0 1 560,252"/>
+  <path class="wave" d="M590,142 A70,70 0 0 1 590,282"/>
+  <path class="wave" d="M620,112 A100,100 0 0 1 620,312"/>
+  <rect x="600" y="112" width="24" height="210" rx="10" fill="#f5f3ee" stroke="#c7cdd4" stroke-width="2"/>
+  <text class="s" x="586" y="352">fabric</text>
+  <line class="finger" x1="760" y1="150" x2="735" y2="225"/>
+  <line class="finger" x1="700" y1="285" x2="738" y2="234"/>
+  <path class="accent" d="M748,204 q8,-7 16,0"/>
+  <path class="accent" d="M752,188 q8,-7 16,0"/>
+  <path class="accent" d="M714,246 q7,8 1,16"/>
+  <text class="s" x="686" y="330">micro-movement</text>
+  <text class="c" x="460" y="430">Radio waves read micro-movement — no image</text>
+  <text class="s" x="460" y="462">works through fabric · sees no faces</text>
+
+  <!-- Panel 3: EMG -->
+  <rect class="panel" x="850" y="60" width="380" height="330"/>
+  <text class="h" x="870" y="100">EMG</text>
+  <rect class="limb" x="1010" y="112" width="54" height="180" rx="27"/>
+  <ellipse class="limb" cx="1037" cy="322" rx="31" ry="40"/>
+  <rect x="1000" y="228" width="74" height="26" rx="12" fill="#031121"/>
+  <circle cx="1037" cy="241" r="5" fill="#fcd430"/>
+  <polyline class="signal" points="1000,241 968,241 956,216 944,266 932,228 920,254 908,241 876,241"/>
+  <text class="s" x="876" y="212">muscle signal</text>
+  <text class="s" x="1100" y="250">wristband</text>
+  <text class="c" x="870" y="430">Reads the command to move, not the movement</text>
+  <text class="s" x="870" y="462">no line of sight needed — the hand stays down</text>
+</svg>
