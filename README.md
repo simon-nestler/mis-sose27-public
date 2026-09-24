@@ -1,10 +1,10 @@
 # Multimodal, Interactive Systems · Summer term 2027
 
-Öffentliche Materialien der Lehrveranstaltung Multimodal, Interactive Systems (User Experience Design (M.Sc.)), Technische Hochschule Ingolstadt, Prof. Dr. Simon Nestler.
+Public materials for Multimodal, Interactive Systems (User Experience Design (M.Sc.)), Technische Hochschule Ingolstadt, Prof. Dr. Simon Nestler.
 
-Videos sind nicht enthalten; an ihrer Stelle steht im Skript ein Link auf die Originalquelle.
+Videos are not included; the lecture notes link to the original source instead.
 
-## Skript
+## Lecture notes
 
 - [T00 · Organization](skript/t00/)
 - [T01 · The Invisible Interface](skript/t01/)
@@ -21,19 +21,19 @@ Videos sind nicht enthalten; an ihrer Stelle steht im Skript ein Link auf die Or
 - [T12 · The Terminal for Everyone](skript/t12/)
 - [T13 · Interfaces at Runtime](skript/t13/)
 
-## Übungs- und Praktikumsblätter
+## Exercise sheets
 
-- [u01-toolchain](blaetter/u01-toolchain.pdf)
-- [u02-gesture-set](blaetter/u02-gesture-set.pdf)
-- [u03-voice-prototype](blaetter/u03-voice-prototype.pdf)
-- [u04-integration](blaetter/u04-integration.pdf)
-- [u05-accessibility-audit](blaetter/u05-accessibility-audit.pdf)
-- [u06-user-test](blaetter/u06-user-test.pdf)
+- [Exercise Sheet 01 · Toolchain](blaetter/u01-toolchain.pdf)
+- [Exercise Sheet 02 · Gesture set](blaetter/u02-gesture-set.pdf)
+- [Exercise Sheet 03 · Voice prototype](blaetter/u03-voice-prototype.pdf)
+- [Exercise Sheet 04 · Integration](blaetter/u04-integration.pdf)
+- [Exercise Sheet 05 · Accessibility audit](blaetter/u05-accessibility-audit.pdf)
+- [Exercise Sheet 06 · User test](blaetter/u06-user-test.pdf)
 
-## Probeklausur
+## Mock exam
 
-- [exam](probeklausur/exam.pdf)
+- [Mock Exam](probeklausur/exam.pdf)
 
-## Lern-Skills
+## Learning skills
 
-- [Skills für Claude und andere KI-Assistenten](lern-skills/)
+- [Skills for Claude and other AI assistants](lern-skills/)
