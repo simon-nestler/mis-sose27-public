@@ -23,12 +23,12 @@ Videos are not included; the lecture notes link to the original source instead.
 
 ## Exercise sheets
 
-- [Exercise Sheet 01 · Toolchain](blaetter/u01-toolchain.pdf)
-- [Exercise Sheet 02 · Gesture set](blaetter/u02-gesture-set.pdf)
-- [Exercise Sheet 03 · Voice prototype](blaetter/u03-voice-prototype.pdf)
-- [Exercise Sheet 04 · Integration](blaetter/u04-integration.pdf)
-- [Exercise Sheet 05 · Accessibility audit](blaetter/u05-accessibility-audit.pdf)
-- [Exercise Sheet 06 · User test](blaetter/u06-user-test.pdf)
+- [Exercise Sheet 01 · Toolchain, team and two working channels](blaetter/u01-toolchain.pdf)
+- [Exercise Sheet 02 · Building a gesture set and breaking it](blaetter/u02-gesture-set.pdf)
+- [Exercise Sheet 03 · A voice dialog that fails on purpose](blaetter/u03-voice-prototype.pdf)
+- [Exercise Sheet 04 · One prototype, two modalities](blaetter/u04-integration.pdf)
+- [Exercise Sheet 05 · Audit and one implemented substitution](blaetter/u05-accessibility-audit.pdf)
+- [Exercise Sheet 06 · Three real people, then a revision](blaetter/u06-user-test.pdf)
 
 ## Mock exam
 
