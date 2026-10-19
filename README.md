@@ -21,6 +21,23 @@ Videos are not included; the lecture notes link to the original source instead.
 - [T12 · The Terminal for Everyone](skript/t12/)
 - [T13 · Interfaces at Runtime](skript/t13/)
 
+## Slides only, without the notes text
+
+- [T00 · Organization](skript/t00/folien.html)
+- [T01 · The Invisible Interface](skript/t01/folien.html)
+- [T02 · Combining Modalities](skript/t02/folien.html)
+- [T03 · Context of Use](skript/t03/folien.html)
+- [T04 · Touch Gestures and Recognition Errors](skript/t04/folien.html)
+- [T05 · In-Air Gestures](skript/t05/folien.html)
+- [T06 · The Car Case](skript/t06/folien.html)
+- [T07 · Voice Dialogs: Written and Generated](skript/t07/folien.html)
+- [T08 · Chat and the Articulation Barrier](skript/t08/folien.html)
+- [T09 · The Audit Workshop](skript/t09/folien.html)
+- [T10 · Accessibility: Law and Checking](skript/t10/folien.html)
+- [T11 · Modality Substitution](skript/t11/folien.html)
+- [T12 · The Terminal for Everyone](skript/t12/folien.html)
+- [T13 · Interfaces at Runtime](skript/t13/folien.html)
+
 ## Exercise sheets
 
 - [Exercise Sheet 01 · Toolchain, team and two working channels](blaetter/u01-toolchain.pdf)
